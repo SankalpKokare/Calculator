@@ -1,0 +1,60 @@
+
+body {
+   display: flex;
+    justify-content: center;
+    
+}
+
+
+.container {
+   
+    width: 500px;
+    height: 500px;  
+    justify-content: center;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 30px;
+
+}
+
+.buttonClass {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+
+button {
+  
+    padding: 20px;
+    background-color: #028090;
+    border: 3px solid black;
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+}
+
+.screen {
+    background-color: #028090;
+    height: 125px;
+    width: auto;
+    margin: 5px;
+    border: 3px solid black;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    
+}
+
+.screenText {
+    margin-right: 20px;
+    
+}
+
