@@ -9,7 +9,7 @@ body {
 .container {
    
     width: 500px;
-    height: 500px;  
+    height: 550px;  
     justify-content: center;
     border: 5px solid black;
     padding: 20px;
@@ -42,19 +42,27 @@ button {
 }
 
 .screen {
+    display: flex;
+    flex-direction: column;
     background-color: #028090;
     height: 125px;
     width: auto;
-    margin: 5px;
+    margin: 15px;
     border: 3px solid black;
     color: white;
-    font-size: 50px;
     text-align: right;
-    
+    justify-content: center;
+    padding: 10px;
 }
 
 .screenText {
-    margin-right: 20px;
-    
+    margin: 0px;
+    font-size: 50px;
+    height: auto;
 }
 
+
+.screenUp {
+    font-size: 30px;
+    margin: 0px;
+}
